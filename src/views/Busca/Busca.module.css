@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 1224px;
+  padding: 30px 20px;
+  margin: 0 auto;
+  font: 16px/14px 'Nunito', sans-serif;
+}
+input {
+	display:block;
+	margin-bottom:20px;
+	border:1px solid #999;
+	padding:8px;
+	border-radius:3px;
+}
+
+input:focus {
+	border:1px solid #ccc;
+	outline:none;
+}
+
+input[type=submit] {
+	width:100px;
+	color:#FFF;
+	background:linear-gradient(top, #F33, #933 );
+	border:1px solid #333;
+	cursor:pointer;
+}
